@@ -24,3 +24,12 @@ The code defines a `Strategy` class that allows you to calculate the profit of d
 * `plot_straddle` this method constructs a profit graph for a straddle strategy that involves buying one call and one put option with the same strike
 * `plot_strangle` this method constructs a profit chart for the strangle strategy, where call and put options are also combined, but with different strikes
 * `plot_spread` the method visualizes the profit for a spread strategy, which can be either a call spread or a put spread
+
+## Hedging
+
+The code introduces the `Hedging` class, which contains methods for hedging various trading strategies using options. Hedging is a way to reduce the risk associated with price movements, and in this case, using the delta of options to calculate the necessary actions. Let's analyze each method and its functionality:
+
+* `hedging_option` сalculate the total amount of the underlying asset needed to hedge this position in the option
+* `hedging_straddle` hedging a position in the straddle strategy 
+* `hedging_strangle` hedging a position in the strangle strategy
+* `hedging_spread` hedging a position in the spread strategy
