@@ -1,4 +1,4 @@
-# Option analysis
+# Option analysis 
 
 This project is devoted to analyzing options. Various strategies, methods of real value estimation, hedging methods have been implemented. The project consists of three main files: Options, Strategy, Hedging.
 
